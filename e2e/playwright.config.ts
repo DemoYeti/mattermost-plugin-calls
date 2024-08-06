@@ -12,9 +12,6 @@ const config: PlaywrightTestConfig = {
     timeout: 120 * 1000,
     expect: {
         timeout: 60 * 1000,
-        toMatchSnapshot: {
-            maxDiffPixelRatio: 0.05,
-        },
     },
     reportSlowTests: {
         max: 5,
